@@ -1,0 +1,19 @@
+Pseudocode Login
+
+Start
+session_start()
+input user name dan password
+if ($username == $user && $password == $pass)
+	$_SESSION['user'] = $username;
+else
+if isset($_SESSION[''block])
+	$_SESSION['block']++;
+else
+	$_SESSION['block']=1;
+
+end.
+
+session_start();
+if $_SESSION["salah"] >= 3;
+echo alert('Anda Diblokir') to.location ('error.php');
+}
