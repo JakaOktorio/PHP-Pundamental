@@ -14,6 +14,6 @@ else
 end.
 
 session_start();
-if $_SESSION["salah"] >= 3;
+if $_SESSION["salah"] >= 4;
 echo alert('Anda Diblokir') to.location ('error.php');
 }
